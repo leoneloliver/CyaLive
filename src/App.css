@@ -123,3 +123,30 @@ div#my-modal img{
  .show-it img{
      display: block !important;
 }
+
+
+.hover { display: none;}
+.card:hover .hover {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    background: #00000059;
+    width: 100%;
+    /* vertical-align: middle; */
+    align-items: center;
+}
+
+.container-hover {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.rounded {
+    width: 50px;
+    margin: auto;
+    background: #e62078;
+    /* height: 50px; */
+    border-radius: 50px !important;
+    padding: 12px;
+}
