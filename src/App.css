@@ -111,7 +111,7 @@ div#my-modal img{
 }
  .show-it{
      width: 100% !important;
-     background: #000 !important;
+     background-image: linear-gradient(to right, #060606 , #777777) !important;
      height: 100vh !important;
      opacity: 9.9 !important;
      -webkit-transition: all .3s ease;
