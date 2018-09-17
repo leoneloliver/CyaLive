@@ -97,9 +97,9 @@ body{
      z-index: 99999;
 }
 div#my-modal img{
-     margin: 10% auto;
-     max-width: 400px;
-     display: none;
+   margin: 10% auto;
+   max-width: 400px;
+   display: none;
 }
  #close{
     font-weight: bold;
