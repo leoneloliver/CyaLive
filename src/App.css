@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  width: 130px;
+}
+
+.App-header {
+  background-color: rgb(62, 64, 61);
+  padding: 8px;
+  color: white;
+  text-align: left;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*custom*/
+.wide{
+  width: 100%;
+}
+body{
+  background: #f1f1f3;
+  color: #4f4f4f;
+}
+.card{
+  box-shadow: 1px 1px 8px #e0dfdf;
+}
+.square{
+  background: #e62078;
+  color: #fff;
+  padding: 10px;
+  line-height: 18px;
+}
+.card-text{
+  text-align: left;
+  
+}
+.titles .col-md-9{
+  padding-left: 0;
+}
+.titles .col-md-3{
+  padding-right: 5px
+}
+.author img{
+  border-radius: 50px;
+}
+.author-name {
+  font-size: 0.8em;
+}
+.titles{
+  padding: 12px;
+  padding-bottom: 0;
+}
+.page-title {
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.h2, h2 {
+  font-size: 1.6rem;
+}
+.App-footer{
+     height: 60px;
+     background: #000;
+     color: #fff;
+     padding-top: 20px;
+}
+ div#my-modal {
+     width: 100%;
+     position: fixed;
+     height: 1px;
+     background: #000;
+     text-align: center;
+     opacity: 0;
+     -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+     -o-transition: all .3s ease;
+     -ms-transition: all .3s ease;
+     transition: all .3s ease;
+     z-index: 99999;
+}
+div#my-modal img{
+     margin: 10% auto;
+     max-width: 400px;
+     display: none;
+}
+ #close{
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    padding: 10px 40px;
+    text-align: right;
+    cursor: pointer;
+}
+ .show-it{
+     width: 100% !important;
+     background: #000 !important;
+     height: 100vh !important;
+     opacity: 9.9 !important;
+     -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+     -o-transition: all .3s ease;
+     -ms-transition: all .3s ease;
+     transition: all .3s ease;
+}
+ .show-it img{
+     display: block !important;
+}
