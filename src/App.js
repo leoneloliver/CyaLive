@@ -8,13 +8,15 @@ import Main from './Main';
 const Modal = () => {
   return (
     <div id="my-modal" className="popup">
-    <div id="close">&times;</div>
-    <p>Details</p>
-      <div className="col-md-8">
-         <iframe width="100%" height="450px" frameBorder="0" allow="autoplay;"></iframe>
-      </div>
-      <div className="col-md-4">
-        More Information
+      <div id="close">&times;</div>
+      <p>Details</p>
+      <div className="row">
+        <div className="col-md-7">
+          <iframe width="100%" height="500px" frameBorder="0" allow="autoplay;"></iframe>
+        </div>
+        <div className="col-md-5">
+          More Information
+        </div>
       </div>
      
       
