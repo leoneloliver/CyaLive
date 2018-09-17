@@ -9,7 +9,7 @@ class Main extends Component {
       var classname = document.getElementsByClassName("item");
       var myFunction = function() {
         var attribute = this.getAttribute("data-myattribute");
-        document.getElementById("my-modal").getElementsByTagName("img")[0].src=attribute;
+        document.getElementById("my-modal").getElementsByTagName("iframe")[0].src=attribute;
         document.getElementById("my-modal").classList.add("show-it");      
       };
       Array.from(classname).forEach(function(element) {
@@ -18,6 +18,7 @@ class Main extends Component {
       document.getElementById("close").addEventListener("click", closeModal);
       function closeModal(){
         document.getElementById("my-modal").classList.remove("show-it");
+        document.getElementById("my-modal").getElementsByTagName("iframe")[0].src="";
       }
       // document.getElementById("mobile-menu").addEventListener("click", openMenu);
       // function openMenu(){

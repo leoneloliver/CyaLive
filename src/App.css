@@ -56,6 +56,7 @@ body{
 }
 .author img{
   border-radius: 50px;
+  width: 50px;
 }
 .author-name {
   font-size: 0.8em;
@@ -83,6 +84,7 @@ body{
      width: 100%;
      position: fixed;
      height: 1px;
+     display: none;
      background: #000;
      text-align: center;
      opacity: 0;
@@ -116,6 +118,7 @@ div#my-modal img{
      -o-transition: all .3s ease;
      -ms-transition: all .3s ease;
      transition: all .3s ease;
+     display: block !important;
 }
  .show-it img{
      display: block !important;

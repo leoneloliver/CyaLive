@@ -10,7 +10,9 @@ const Modal = () => {
     <div id="my-modal" className="popup">
     <div id="close">&times;</div>
     <p>My Modal</p>
-      <img />
+      
+      <iframe width="560" height="315" frameBorder="0" allow="autoplay;"></iframe>
+      
     </div>
   );
 };
