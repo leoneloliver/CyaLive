@@ -24,13 +24,13 @@ class List extends React.Component {
         <div className="row">
           {this.state.items.map(item => (
             
-            <div className="col-md-6 col-lg-4 item" data-myattribute={ item.video }>
+            <div className="col-md-6 col-lg-4 item" data-urlvideo={ item.video } data-urlcover={ item.cover } data-title={ item.title } data-avatar={ item.avatar } data-author={ item.author } data-date={ item.date }>
               <div className="card mb-3">
                 <img className="card-img-top img-fluid" src={ item.cover } alt={ item.title } />
                 <div className="card-block">
                   <div className="titles row">
-                    <div className="col-md-3"><div className="square">{ item.date }</div></div>
-                    <div className="col-md-9"><p className="card-text">{ item.title }</p></div>
+                    <div className="col-md-3 col-xs-3 col-sm-3 col-3"><div className="square">{ item.date }</div></div>
+                    <div className="col-md-9 col-xs-9 col-sm-9 col-9"><p className="card-text">{ item.title }</p></div>
                     
                   </div>
                   <hr />

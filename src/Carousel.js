@@ -15,14 +15,14 @@ class Carousel extends React.Component {
   
   
       <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="Los Angeles"  className="wide" />
+        <div className="carousel-item banner-1 active">
+          
         </div>
-        <div className="carousel-item">
-          <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="Chicago" className="wide" />
+        <div className="carousel-item banner-2" >
+          
         </div>
-        <div className="carousel-item">
-          <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" className="wide" />
+        <div className="carousel-item banner-3">
+          
         </div>
       </div>
 

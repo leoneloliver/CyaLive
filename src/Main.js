@@ -8,8 +8,18 @@ class Main extends Component {
     function clickable(){
       var classname = document.getElementsByClassName("item");
       var myFunction = function() {
-        var attribute = this.getAttribute("data-myattribute");
-        document.getElementById("my-modal").getElementsByTagName("iframe")[0].src=attribute;
+        var video = this.getAttribute("data-urlvideo");
+        var title = this.getAttribute("data-title");
+        var cover = this.getAttribute("data-urlcover");
+        var avatar = this.getAttribute("data-avatar");
+        var author = this.getAttribute("data-author");
+        var date = this.getAttribute("data-date");
+        document.getElementById("my-modal").getElementsByTagName("iframe")[0].src=video+"?autoplay=1";
+        document.getElementById("cover").src=cover;
+        document.getElementById("avatar").src=avatar;
+        document.getElementById("author").innerText=author;
+        document.getElementById("title").innerText=title;
+        document.getElementById("date").innerText=date;
         document.getElementById("my-modal").classList.add("show-it");      
       };
       Array.from(classname).forEach(function(element) {
