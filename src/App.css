@@ -101,13 +101,14 @@ div#my-modal img{
    max-width: 400px;
    display: none;
 }
- #close{
-    font-weight: bold;
+#close {
+    font-weight: 700;
     font-size: 40px;
     color: #fff;
-    padding: 10px 40px;
+    padding: 0px 40px;
     text-align: right;
     cursor: pointer;
+    margin-top: -3px;
 }
  .show-it{
      width: 100% !important;
