@@ -20,7 +20,7 @@ class List extends React.Component {
         <div className="page-title">
           <h2>UPCOMING</h2>
         </div>
-        <Helmet title="UPCOMING" />
+        <Helmet title="Cya.Live - Clone" />
         <div className="row">
           {this.state.items.map(item => (
             <div className="col-md-6 col-lg-4 item" data-urlvideo={ item.video } data-urlcover={ item.cover } data-title={ item.title } data-avatar={ item.avatar } data-author={ item.author } data-date={ item.date }>
