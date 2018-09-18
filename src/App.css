@@ -239,3 +239,12 @@ p#date {
     background-position: center;
     background-image: url(https://ae01.alicdn.com/kf/HTB12SDUo3DD8KJjy0Fdq6AjvXXa2/OTARGOS-black-metal-heavy-concert-guitar-music-band-KC319-living-room-home-wall-modern-art-decor.jpg_640x640.jpg);
 }
+
+@media only screen and (max-width: 767px) {
+  #close{
+    position: fixed;
+    top: 29px;
+    z-index: 999999;
+  }
+}
+
