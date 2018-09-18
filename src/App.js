@@ -40,7 +40,9 @@ class App extends Component {
         </header>
         <Carousel />
         <Main />
-        
+        <footer className="App-footer">
+            <p className="made">Made With ❤ by Leonel Oliveira</p>
+        </footer>
       </div>
     );
   }

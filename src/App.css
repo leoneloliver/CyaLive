@@ -75,11 +75,11 @@ body{
 .h2, h2 {
   font-size: 1.6rem;
 }
-.App-footer{
-     height: 60px;
-     background: #000;
-     color: #fff;
-     padding-top: 20px;
+.App-footer {
+    height: 60px;
+    background: #202020;
+    color: #8b8787;
+    padding-top: 20px;
 }
  div#my-modal {
      width: 100%;
