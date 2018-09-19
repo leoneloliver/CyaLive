@@ -243,7 +243,7 @@ p#date {
 .carousel-indicators .active {
     background-color: #e62078;
 }
-.carousel-indicators{
+.carousel-indicators li{
     height: 6px;
 }
 ul.carousel-indicators {
