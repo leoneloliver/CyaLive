@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
 import './App.css';
+import Header from './Header';
 import Carousel from './Carousel';
 import Main from './Main';
+import Footer from './Footer';
 
 
 const Modal = () => {
@@ -35,14 +36,10 @@ class App extends Component {
     return (
       <div className="App">
         <Modal />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
+        <Header />
         <Carousel />
         <Main />
-        <footer className="App-footer">
-            <p className="made">Made With ❤ by Leonel Oliveira</p>
-        </footer>
+        <Footer />
       </div>
     );
   }
