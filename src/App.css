@@ -240,6 +240,18 @@ p#date {
     background-position: center;
     background-image: url(https://ae01.alicdn.com/kf/HTB12SDUo3DD8KJjy0Fdq6AjvXXa2/OTARGOS-black-metal-heavy-concert-guitar-music-band-KC319-living-room-home-wall-modern-art-decor.jpg_640x640.jpg);
 }
+.carousel-indicators .active {
+    background-color: #e62078;
+}
+.carousel-indicators{
+    height: 6px;
+}
+ul.carousel-indicators {
+    padding: 20px;
+    background: #3e403df0;
+    width: 100%;
+    margin: -11px 0;
+}
 
 @media only screen and (max-width: 767px) {
   #close{
