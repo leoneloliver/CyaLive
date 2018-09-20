@@ -8,7 +8,7 @@ class List extends React.Component {
     items: []
   }
   componentDidMount() {
-    axios.get('https://api.myjson.com/bins/wm78s')
+    axios.get('https://api.myjson.com/bins/1fo2lo')
       .then(res => {
         const items = res.data;
         this.setState({ items });
