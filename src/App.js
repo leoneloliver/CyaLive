@@ -21,7 +21,7 @@ const Modal = () => {
           <img id="cover" />
           <h3 id="title"></h3>
           <p id="date"></p>
-          <div className="btn-buy">Get Tickets</div>
+          <a className="btn-buy" target="_blank" id="buy-ticket">Get Tickets</a>
         </div>
       </div>
      
