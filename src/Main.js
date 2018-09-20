@@ -20,7 +20,10 @@ class Main extends Component {
         document.getElementById("author").innerText=author;
         document.getElementById("title").innerText=title;
         document.getElementById("date").innerText=date;
-        document.getElementById("my-modal").classList.add("show-it");      
+        document.getElementById("buy-ticket").href="https://www.google.com/search?q="+title+" tickets";
+        document.getElementById("my-modal").classList.add("show-it");   
+        
+        
       };
       Array.from(classname).forEach(function(element) {
         element.addEventListener("click", myFunction);
