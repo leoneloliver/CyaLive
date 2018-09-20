@@ -212,8 +212,9 @@ h5#author {
     width: 145px;
     margin: 0 auto;
 }
-.btn-buy:hover{
-    background: #4CAF50;
+.btn-buy:hover {
+    background: #468649;
+    text-decoration: none;
 }
 p#date {
     padding: 10px 30px;
