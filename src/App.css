@@ -161,16 +161,14 @@ div#my-modal img{
     text-align: center;
     color: #fff;
 }
-
 .rounded {
     width: 50px;
     margin: auto;
     background: #e62078;
-    /* height: 50px; */
-    border-radius: 50px !important;
+    border-radius: 50px!important;
     padding: 12px;
+    box-shadow: 1px 1px 20px #131313;
 }
-
 .more-info{
   background: #2f2f2f;
 }
