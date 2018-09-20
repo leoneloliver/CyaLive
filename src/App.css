@@ -207,7 +207,7 @@ h5#author {
     background: #60ba46;
     border-radius: 20px;
     margin-right: 15px;
-    color: #fff;
+    color: #fff !important;
     cursor: pointer;
     width: 145px;
     margin: 0 auto;
