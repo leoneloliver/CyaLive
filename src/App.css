@@ -221,22 +221,18 @@ p#date {
 .carousel-item{
   height: 410px;
 }
-.banner-1{
+.banner-1, .banner-2, .banner-3{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 0% 0%;
+}
+.banner-1{
     background-image: url(http://www.jrwolfmusic.com/wp-content/uploads/2017/08/2017-07-14-Al-B-Jamboree-Blue-Moose-copy.jpg);
 }
 .banner-2{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background-image: url(http://chasingthelightart.com/wp-content/uploads/12.jpg);
 }
 .banner-3{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background-image: url(https://ae01.alicdn.com/kf/HTB12SDUo3DD8KJjy0Fdq6AjvXXa2/OTARGOS-black-metal-heavy-concert-guitar-music-band-KC319-living-room-home-wall-modern-art-decor.jpg_640x640.jpg);
 }
 .carousel-indicators .active {
