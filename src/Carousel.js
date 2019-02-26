@@ -10,7 +10,6 @@ class Carousel extends React.Component {
       <ul className="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
-        <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
       </ul>
   
   
@@ -21,9 +20,7 @@ class Carousel extends React.Component {
         <div className="carousel-item banner-2" >
           
         </div>
-       <!-- <div className="carousel-item banner-3">
-          
-        </div> -->
+     
       </div>
 
 
