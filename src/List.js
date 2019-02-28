@@ -25,6 +25,7 @@ class List extends React.Component {
           {this.state.items.map(item => (
             <div className="col-md-6 col-lg-4 item" data-urlvideo={ item.video } data-urlcover={ item.cover } data-title={ item.title } data-avatar={ item.avatar } data-author={ item.author } data-date={ item.date }>
               <div className="card mb-3">
+	    	<div class="live">Live</div>
                 <img className="card-img-top img-fluid" src={ item.cover } alt={ item.title } />
                 <div className="card-block">
                   <div className="titles row">
