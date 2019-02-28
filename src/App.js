@@ -17,7 +17,8 @@ const Modal = () => {
           <h5 id="author"></h5>
         </div>
         <div className="col-md-5 more-info">
-        <div id="close">&times;</div>
+          <div id="close">&times;</div>
+          <div class="live">Live</div>
           <img id="cover" />
           <h3 id="title"></h3>
           <p id="date"></p>
