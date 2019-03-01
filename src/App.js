@@ -10,13 +10,13 @@ const Modal = () => {
   return (
     <div id="my-modal" className="popup">
       <div className="row">
-        <div className="col-md-7 pr0">
+        <div className="col-md-8 pr0">
           <iframe width="100%" height="500" frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <hr className="hr" />
           <img id="avatar" />
           <h5 id="author"></h5>
         </div>
-        <div className="col-md-5 more-info">
+        <div className="col-md-4 more-info">
           <div id="close">&times;</div>
           <div class="live">Live</div>
           <img id="cover" />
