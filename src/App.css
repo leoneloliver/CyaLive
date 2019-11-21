@@ -227,10 +227,10 @@ p#date {
     background-position: 0% 0%;
 }
 .banner-1{
-    background-image: url(https://cdn.londonandpartners.com/-/media/images/london/visit/general-london/music.jpg);
+    background-image: url(../src/images/banner1.webp);
 }
 .banner-2{
-    background-image: url(https://ae01.alicdn.com/kf/HTB12SDUo3DD8KJjy0Fdq6AjvXXa2/OTARGOS-black-metal-heavy-concert-guitar-music-band-KC319-living-room-home-wall-modern-art-decor.jpg_640x640.jpg);
+    background-image: url(../src//images/banner2.jpg);
 }
 .banner-3{
     background-image: url(https://cdn.londonandpartners.com/visit/london-organisations/alexandra-palace/92923-640x360-alexandra-palace-gig-640.jpg);
