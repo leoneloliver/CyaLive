@@ -53,11 +53,11 @@ body{
   padding-left: 0;
 }
 .titles .col-md-3{
-  padding-right: 5px
+  padding-right: 12px
 }
 .author img{
   border-radius: 50px;
-  width: 50px;
+  width: 35px;
 }
 .author-name {
   font-size: 0.8em;

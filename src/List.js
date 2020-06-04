@@ -3,23 +3,19 @@ import axios from 'axios';
 import Helmet from 'react-helmet';
 
 const cors_api_url = 'https://cors-anywhere.herokuapp.com/';
-
 // https://extendsclass.com/json-storage.html#adefdbd
-
 class List extends React.Component {
   // using axios
   state = {
     items: []
   }
-  
   componentDidMount() {
-    axios.get(`${cors_api_url}https://extendsclass.com/api/json-storage/bin/adefdbd?v=20`)
+    axios.get(`${cors_api_url}https://extendsclass.com/api/json-storage/bin/adefdbd?v=21`)
       .then(res => {
         const items = res.data;
         this.setState({ items });
         // console.log(this.state.items)
-      })
-      
+      })   
   }
   render() {
     return (   
