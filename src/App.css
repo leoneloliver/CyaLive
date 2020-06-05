@@ -224,7 +224,8 @@ p#date {
 .banner-1, .banner-2, .banner-3{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 0%;
+    /* background-position: 0% 0%; */
+    background-position: 0 32%;
 }
 .banner-1{
     background-image: url(../src/images/banner1.webp);
