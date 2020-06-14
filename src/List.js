@@ -10,7 +10,7 @@ class List extends React.Component {
     items: []
   }
   componentDidMount() {
-    axios.get(`${cors_api_url}https://extendsclass.com/api/json-storage/bin/adefdbd?v=21`)
+    axios.get(`${cors_api_url}https://extendsclass.com/api/json-storage/bin/adefdbd?v=24`)
       .then(res => {
         const items = res.data;
         this.setState({ items });
