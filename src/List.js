@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Helmet from 'react-helmet';
 
-const cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+// const cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+const cors_api_url = 'https://test.cors.workers.dev/?';
 // https://extendsclass.com/json-storage.html#adefdbd
 class List extends React.Component {
   // using axios
