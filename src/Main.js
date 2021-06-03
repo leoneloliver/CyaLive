@@ -38,7 +38,7 @@ class Main extends Component {
       //   document.getElementsByClassName('m-menu')[0].classList.add("open");
       // }
     }
-    setTimeout(function(){ clickable(); }, 900);
+    setTimeout(function(){ clickable(); }, 1300);
   }
 
   constructor(props) {
